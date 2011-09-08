@@ -9,7 +9,8 @@ http://www.allbuttonspressed.com/projects/djangoappengine
 Getting started...
 
 git clone git@github.com:FreeAgent/djangoappengine-starter.git
-cd djangoappengine-starter
+mv djangoappengine-starter {your-project-name}
+cd {your-project-name}
 
 Add this directory & the SDK for App Engine to your PATH
 
