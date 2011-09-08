@@ -1,7 +1,21 @@
 
+(Project created on 8th Sept 2011.)
+
 This is a blank, starter project for using App Engine & "djangoappengine".
 
 This project was created simply by following the installation instructions here:
 http://www.allbuttonspressed.com/projects/djangoappengine
 
-(Created on 8th Sept 2011.)
+Getting started...
+
+git clone git@github.com:FreeAgent/djangoappengine-starter.git
+cd djangoappengine-starter
+
+Add this directory & the SDK for App Engine to your PATH
+
+e.g. (on Linux)
+export PATH=.:$PATH
+export PATH=$PATH:/opt/google_appengine
+
+Start the local development server for App Engine:
+manage.py runserver
